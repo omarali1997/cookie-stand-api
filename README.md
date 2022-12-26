@@ -1,25 +1,26 @@
-# api-quick-start
+# LAB - Class 29
 
-Template Project for starting up CRUD API with Django Rest Framework
+## Project: API Deployment
 
-## Customization Steps
+### Author: Asad Hijawi And Omar Ali
 
-- DO NOT migrate yet
-- add additional dependencies as needed
-  - Re-export requirements.txt as needed
-- change `cookie_stands` folder to the app name of your choice
-- Search through entire code base for `Thing`,`cookie_stands` and `cookie_stands` to modify code to use your resource
-  - `project/settings.py`
-  - `project/urls.py`
-  - App's files
-    - `views.py`
-    - `urls.py`
-    - `admin.py`
-    - `serializers.py`
-    - `permissions.py`
-- Update ThingModel with fields you need
-  - Make sure to update other modules that would be affected by Model customizations. E.g. serializers, tests, etc.
-- Rename `project/.env.sample` to `.env` and update as needed
-- Run makemigrations and migrate commands
-- Run `collectstatic` if needed.
-- Optional: Update `api_tester.py`
+### Herokuapp Links 
+
+- https://cookie-stands-a-o.herokuapp.com/
+
+
+### Setup
+
+#### `.env` requirements (where applicable)
+
+i.e.
+
+- `PORT` - 8000
+
+#### How to initialize/run your application (where applicable)
+
+- use this link :  https://cookie-stands-a-o.herokuapp.com/
+- username : admin
+- password : admin123
+
+
