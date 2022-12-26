@@ -61,7 +61,7 @@ INSTALLED_APPS = [
     "corsheaders",
     # local
     "accounts",
-    "things",
+    "cookie_stands",
 ]
 
 MIDDLEWARE = [
@@ -169,5 +169,7 @@ SIMPLE_JWT = {
     ),  # lasts for 60 minutes
 }
 
+CSRF_TRUSTED_ORIGINS = tuple(env.list("ALLOWED_ORIGINS"))
 CORS_ORIGIN_WHITELIST = tuple(env.list("ALLOWED_ORIGINS"))
 CORS_ALLOW_ALL_ORIGINS = env.bool("ALLOW_ALL_ORIGINS")
+
